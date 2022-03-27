@@ -7,6 +7,20 @@ Usable Form: Paragraphs as a unit of data that will be storeed in a database. Tr
 Processing Steps:
 
   - Remove all subsections for sources and references
+    From the first 100k lines of the xml the most common subsections were
+       23 ===citations===
+       24 ===1601–1900===
+       24 ===1901–present===
+       24 ===pre-1600===
+       34 ==bibliography==
+       39 ==etymology==
+       71 ==notes==
+       73 ==history==
+       89 ==furtherreading==
+      175 ==seealso==
+      199 ==externallinks==
+      219 ==references==
+
 
   - Remove all editor comments and notations
 

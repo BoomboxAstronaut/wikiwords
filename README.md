@@ -49,13 +49,19 @@ Processing Steps:
   - Remove inline citations
 
   - Extract information from brackets
+  - 
     - Text inside double square brackets identify proper nouns or variations on names. Basic extraction
+    
     - Text inside curly brackets identify different objects like citations or quotes. Delete or extract based on object type
+    
     - Text inside parenthesis provide additional contextual information. Provide relevant information to the text. Basic extraction
+    
 
   - Remove lists/charts/tables/info boxes
 
-  - Remove all file names and links
+  - Remove all files, links, etc
+  - 
+    - Thumbnails usually carry descriptions. These could be useful for training image classification.
 
   - Convert all xml control characters into regular text form
 
